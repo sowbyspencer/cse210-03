@@ -61,9 +61,7 @@ root                      (project root folder)
 | is_chuteGone(self): boolean |
 | cutChute(self): none |
 
-
 ### terminal_service.py
-```
 | class: terminal_service |
 | --- |
 | none |
@@ -72,7 +70,7 @@ root                      (project root folder)
 | read_number(self, prompt): float |
 | write_text(self, text): none |
 | write_list(self, list): none |
-```
+
 
 ## Required Technologies
 * Python 3.8.0
