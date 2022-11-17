@@ -12,15 +12,15 @@ You can also run the program from an IDE like Visual Studio Code. Start your IDE
 ## Project Structure
 The project files and folders are organized as follows:
 ```
-root                    (project root folder)
-+-- jumper              (source code for game)
-  +-- game              (specific classes)
-  +-- __main__.py       (program entry point)
-    +-- director.py     (processes the logic of the game)
-    +-- chute.py        (holds info about the man and parachute, and methods to change itself)
-    +-- puzzle.py       (holds info about the secret word, the hint display and methods to change itself and check guesses)
-    +-- terminal_service(all user input and output goes through this class)
-+-- README.md           (general info)
+root                      (project root folder)
++-- jumper                (source code for game)
+  +-- game                (specific classes)
+  +-- __main__.py         (program entry point)
+    +-- director.py       (processes the logic of the game)
+    +-- chute.py          (holds info about the man and parachute, and methods to change itself)
+    +-- puzzle.py         (holds info about the secret word, the hint display and methods to change itself and check guesses)
+    +-- terminal_service  (all user input and output goes through this class)
++-- README.md             (general info)
 ```
 
 ## Required Technologies
