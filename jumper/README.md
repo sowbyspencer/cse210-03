@@ -46,7 +46,7 @@ root                      (project root folder)
 | _secretWord: string |
 | _displayStringArray: list |
 | _displayString: string |
-|  |
+|:___:|
 | get_displayString(self): string |
 | checkGuess(self, letter): boolean |
 | is_complete(self) : boolean |
