@@ -26,7 +26,7 @@ root                      (project root folder)
 ### director.py
 | class: director |
 | --- |
-| __init__(self) |
+| \__init__(self) |
 | _puzzle: Puzzle |
 | _is_playing: True |
 | _chute: Chute |
@@ -41,16 +41,38 @@ root                      (project root folder)
 ### puzzle.py
 | class: puzzle |
 | --- |
-| __init__(self) |
+| \__init__(self) |
 | words: lsit |
 | _secretWord: string |
 | _displayStringArray: list |
 | _displayString: string |
-|:___:|
+|  |
 | get_displayString(self): string |
 | checkGuess(self, letter): boolean |
 | is_complete(self) : boolean |
 
+### chute.py
+| class: chute |
+| --- |
+| \__init__(self) |
+| _chuteList: list |
+|  |
+| get_chute(self): list |
+| is_chuteGone(self): boolean |
+| cutChute(self): none |
+
+
+### terminal_service.py
+```
+| class: terminal_service |
+| --- |
+| none |
+|  |
+| read_text(self, prompt): string |
+| read_number(self, prompt): float |
+| write_text(self, text): none |
+| write_list(self, list): none |
+```
 
 ## Required Technologies
 * Python 3.8.0
