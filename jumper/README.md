@@ -32,6 +32,10 @@ root                      (project root folder)
 | _terminal_service: TerminalService |
 | _guess: string |
 | --- |
+| start_game(self) |
+| _get_inputs(self) |
+| _do_updates(self) |
+| _do_outputs(self) |
 
 ## Required Technologies
 * Python 3.8.0
