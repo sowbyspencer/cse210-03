@@ -23,6 +23,16 @@ root                      (project root folder)
 +-- README.md             (general info)
 ```
 
+### director.py
+| calss: director |
+| --- |
+| _puzzle: Puzzle |
+| _is_playing: True |
+| _chute: Chute |
+| _terminal_service: TerminalService |
+| _guess: string |
+| --- |
+
 ## Required Technologies
 * Python 3.8.0
 
