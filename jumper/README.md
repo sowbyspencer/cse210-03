@@ -24,8 +24,9 @@ root                      (project root folder)
 ```
 
 ### director.py
-| calss: director |
+| class: director |
 | --- |
+| __init__(self) |
 | _puzzle: Puzzle |
 | _is_playing: True |
 | _chute: Chute |
@@ -36,6 +37,19 @@ root                      (project root folder)
 | _get_inputs(self) |
 | _do_updates(self) |
 | _do_outputs(self) |
+
+### puzzle.py
+| class: puzzle |
+| __init__(self) |
+| words: lsit |
+| _secretWord: string |
+| _displayStringArray: list |
+| _displayString: string |
+|  |
+| get_displayString(self): string |
+| checkGuess(self, letter): boolean |
+| is_complete(self) : boolean |
+
 
 ## Required Technologies
 * Python 3.8.0
