@@ -56,7 +56,11 @@ class Director:
         """
         if not self._puzzle.checkGuess(self._guess):
             self._chute.cutChute()
+        
         self._is_playing = not self._puzzle.is_complete()
+
+        if self._chute.is_chuteGone():
+            self._is_playing = False
         
     def _do_outputs(self):
         """Prints if the guessed letter was in the secret word and the parachute man
@@ -67,7 +71,6 @@ class Director:
         self._terminal_service.write_text(f"\n{self._puzzle.get_displayString()}\n")
         self._terminal_service.write_list(self._chute.get_chute())
         if self._chute.is_chuteGone():
-            self._is_playing = False
             self._terminal_service.write_text(f"\n{self._puzzle.get_displayString()}\n")
             self._terminal_service.write_list(self._chute.get_chute())
             self._terminal_service.write_text("GAME OVER")
