@@ -40,6 +40,7 @@ root                      (project root folder)
 
 ### puzzle.py
 | class: puzzle |
+| --- |
 | __init__(self) |
 | words: lsit |
 | _secretWord: string |
