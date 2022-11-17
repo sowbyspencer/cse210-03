@@ -15,11 +15,11 @@ The project files and folders are organized as follows:
 root                      (project root folder)
 +-- jumper                (source code for game)
   +-- game                (specific classes)
-  +-- __main__.py         (program entry point)
     +-- director.py       (processes the logic of the game)
     +-- chute.py          (holds info about the man and parachute, and methods to change itself)
     +-- puzzle.py         (holds info about the secret word, the hint display and methods to change itself and check guesses)
     +-- terminal_service  (all user input and output goes through this class)
+  +-- __main__.py         (program entry point)
 +-- README.md             (general info)
 ```
 
