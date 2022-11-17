@@ -31,7 +31,7 @@ root                      (project root folder)
 | _chute: Chute |
 | _terminal_service: TerminalService |
 | _guess: string |
-| --- |
+|  |
 | start_game(self) |
 | _get_inputs(self) |
 | _do_updates(self) |
