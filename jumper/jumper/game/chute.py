@@ -29,6 +29,8 @@ class Chute:
             self: 
         Return: a boolean True if the chute is gone
         """
+        if len(self._chuteList) <= 5:
+            self._chuteList[0] = "   x   "
         return len(self._chuteList) <= 5
 
     def cutChute(self): 

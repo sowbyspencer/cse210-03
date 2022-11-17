@@ -68,4 +68,6 @@ class Director:
         self._terminal_service.write_list(self._chute.get_chute())
         if self._chute.is_chuteGone():
             self._is_playing = False
+            self._terminal_service.write_text(f"\n{self._puzzle.get_displayString()}\n")
+            self._terminal_service.write_list(self._chute.get_chute())
             self._terminal_service.write_text("GAME OVER")
